@@ -75,5 +75,7 @@ Start the server
 
 - Single Category Page.
 
+- User Profile Page.
+
 
 
