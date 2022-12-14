@@ -77,5 +77,5 @@ Start the server
 
 - User Profile Page.
 
-
+- Single Blog Page.
 
