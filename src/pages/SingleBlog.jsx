@@ -191,11 +191,11 @@ const SingleBlog = () => {
                                 </>
                             )
                         }
-                        {article && singleComments != null && <Text>Comment List</Text>}
+                        {article && comments !== null && singleComments != 0 && <Text>Comment List</Text>}
                         {
                             article &&
                             comments !== null &&
-                            comments.map(
+                            singleComments.map(
                                 ({
                                     id,
                                     title,
