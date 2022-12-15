@@ -38,13 +38,6 @@ Start the server
 
 ## Tech Stack
 
-**Client:** React JS, Chakra-UI,React-Icons
-
-**Server:** firebase.
-
-
-## Tech Stack
-
  - [React JS](https://reactjs.org/)
  - [Chakra-UI](https://chakra-ui.com/)
  - [React-Icons](https://react-icons.github.io/react-icons/)
