@@ -24,7 +24,7 @@ import {
     MdCall,
     MdMessage,
 } from 'react-icons/md';
-import { FaFacebook, FaGithub, FaTwitter, FaUserCircle } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaTwitter, FaUserCircle, FaLinkedin } from "react-icons/fa";
 import BreadcrumbSec from '../components/BreadcrumbSec'
 
 export default function Contect() {
@@ -59,7 +59,7 @@ export default function Contect() {
                                                     color="#DCE2FF"
                                                     _hover={{ border: '2px solid #1C6FEB' }}
                                                     leftIcon={<MdPhone color="#1970F1" size="20px" />}>
-                                                    +91-988888888
+                                                    +91-8619804757
                                                 </Button>
                                                 <Button
                                                     size="md"
@@ -69,7 +69,7 @@ export default function Contect() {
                                                     color="#DCE2FF"
                                                     _hover={{ border: '2px solid #1C6FEB' }}
                                                     leftIcon={<MdEmail color="#1970F1" size="20px" />}>
-                                                    hello@abc.com
+                                                    demo@gmail.com
                                                 </Button>
                                                 <Button
                                                     size="md"
@@ -79,7 +79,7 @@ export default function Contect() {
                                                     color="#DCE2FF"
                                                     _hover={{ border: '2px solid #1C6FEB' }}
                                                     leftIcon={<MdLocationOn color="#1970F1" size="20px" />}>
-                                                    Karnavati, India
+                                                    Kota,Rajasthan, India
                                                 </Button>
                                             </VStack>
                                         </Box>
@@ -88,30 +88,26 @@ export default function Contect() {
                                             spacing={5}
                                             px={5}
                                             alignItems="flex-start">
-                                            <IconButton
-                                                aria-label="facebook"
-                                                variant="ghost"
-                                                size="lg"
-                                                isRound={true}
-                                                _hover={{ bg: '#0D74FF' }}
-                                                icon={<FaFacebook size="28px" />}
-                                            />
-                                            <IconButton
-                                                aria-label="facebook"
-                                                variant="ghost"
-                                                size="lg"
-                                                isRound={true}
-                                                _hover={{ bg: '#0D74FF' }}
-                                                icon={<FaGithub size="28px" />}
-                                            />
-                                            <IconButton
-                                                aria-label="facebook"
-                                                variant="ghost"
-                                                size="lg"
-                                                isRound={true}
-                                                _hover={{ bg: '#0D74FF' }}
-                                                icon={<FaTwitter size="28px" />}
-                                            />
+                                            <a href='https://www.linkedin.com/in/bhanu9672/' target="_blank">
+                                                <IconButton
+                                                    aria-label="linkedinin"
+                                                    variant="ghost"
+                                                    size="lg"
+                                                    isRound={true}
+                                                    _hover={{ bg: '#0D74FF' }}
+                                                    icon={<FaLinkedin size="36px" />}
+                                                />
+                                            </a>
+                                            <a href='https://github.com/bhanu9672' target="_blank">
+                                                <IconButton
+                                                    aria-label="Github"
+                                                    variant="ghost"
+                                                    size="lg"
+                                                    isRound={true}
+                                                    _hover={{ bg: '#0D74FF' }}
+                                                    icon={<FaGithub size="36px" />}
+                                                />
+                                            </a>
                                         </HStack>
                                     </Box>
                                 </WrapItem>
@@ -151,7 +147,7 @@ export default function Contect() {
                                                 </FormControl>
                                                 <FormControl id="name" float="right">
                                                     <Button
-                                                    leftIcon={<MdMessage />}
+                                                        leftIcon={<MdMessage />}
                                                         variant="solid"
                                                         bg="#0D74FF"
                                                         color="white"
